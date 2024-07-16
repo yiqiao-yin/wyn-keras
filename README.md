@@ -16,7 +16,17 @@ wyn-keras/
 └── .gitignore
 ```
 
-## Installation Instructions 📦
+## Installation Instructions (From `PIP`) 📦
+
+To install the package from PyPI, use the following command:
+
+```sh
+pip install wyn-keras
+```
+
+For more information, visit the [PyPI page](https://pypi.org/project/wyn-keras/).
+
+## Installation Instructions (Local) 📦
 
 To install the package and its dependencies, use [Poetry](https://python-poetry.org/):
 
