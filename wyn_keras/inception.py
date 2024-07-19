@@ -26,7 +26,7 @@ class InceptionV3Model:
         Args:
             input_shape (Tuple[int, int, int]): The shape of the input images (height, width, channels).
             num_classes (int): The number of output classes.
-            resize_shape (Tuple[int, int]): The shape to resize input images to.
+            resize_shape (Tuple[int, int]): The shape to resize input images to. 
         """
         self.input_shape = input_shape
         self.num_classes = num_classes

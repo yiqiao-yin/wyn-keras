@@ -1,6 +1,6 @@
 # wyn-keras 🎉
 
-A Python package for building and experimenting with Vision Transformer (ViT) models using TensorFlow and Keras.
+A Python package for building and experimenting with Popular Convolutional Neural Networks (CNN) and Vision Transformer (ViT) models using TensorFlow and Keras.
 
 ## Directory Structure 📁
 
@@ -110,10 +110,10 @@ num_classes = 10
 vgg16_instance = VGG16(input_shape=input_shape, num_classes=num_classes)
 
 # Build the model
-model = vgg16_instance.build_model()
+model_vgg16 = vgg16_instance.build_model()
 
 # Print the model summary
-model.summary()
+model_vgg16.summary()
 ```
 
 ### ResNet
@@ -132,10 +132,10 @@ strides = (2, 2)
 resnet_instance = ResNet50(input_shape=input_shape, num_classes=num_classes, kernel_size=kernel_size, filters=filters, strides=strides)
 
 # Build the model
-model = resnet_instance.build_model()
+model_resnet = resnet_instance.build_model()
 
 # Print the model summary
-model.summary()
+model_resnet.summary()
 ```
 
 ### DenseNet
@@ -153,10 +153,10 @@ compression_factor = 0.5
 densenet_instance = DenseNet121(input_shape=input_shape, num_classes=num_classes, growth_rate=growth_rate, compression_factor=compression_factor)
 
 # Build the model
-model = densenet_instance.build_model()
+model_densenet = densenet_instance.build_model()
 
 # Print the model summary
-model.summary()
+model_densenet.summary()
 ```
 
 ### InceptionV3
@@ -173,10 +173,10 @@ resize_shape = (75, 75)
 inception_instance = InceptionV3Model(input_shape=input_shape, num_classes=num_classes, resize_shape=resize_shape)
 
 # Build the model
-model = inception_instance.build_model()
+model_inception = inception_instance.build_model()
 
 # Print the model summary
-model.summary()
+model_inception.summary()
 ```
 
 ## Author ✍️

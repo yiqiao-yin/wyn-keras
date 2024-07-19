@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wyn-keras"
-version = "0.1.8"
+version = "0.2.0"
 description = "Our customized keras package for popular image classifier techniques."
 authors = ["Yiqiao Yin <eagle0504@gmail.com>"]
 license = "MIT"
